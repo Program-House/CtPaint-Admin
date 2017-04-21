@@ -1,0 +1,18 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Model$User = F4(
+	function (a, b, c, d) {
+		return {username: a, email: b, verified: c, frozen: d};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Model$Model = F6(
+	function (a, b, c, d, e, f) {
+		return {users: a, current: b, usernameField: c, searchField: d, searchParameter: e, searchParameterDropped: f};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Model$ByUsername = {ctor: 'ByUsername'};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Model$ByEmail = {ctor: 'ByEmail'};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Model$init = {
+	users: {ctor: '[]'},
+	current: _elm_lang$core$Maybe$Nothing,
+	usernameField: '',
+	searchField: '',
+	searchParameter: _Chadtech$elm_gulp_browserify_boilerplate$User_Model$ByEmail,
+	searchParameterDropped: false
+};

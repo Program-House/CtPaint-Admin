@@ -1,0 +1,8 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$HandleEnter = {ctor: 'HandleEnter'};
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$UpdatePasswordField = function (a) {
+	return {ctor: 'UpdatePasswordField', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$UpdateUsernameField = function (a) {
+	return {ctor: 'UpdateUsernameField', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$SignIn = {ctor: 'SignIn'};

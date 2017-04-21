@@ -1,0 +1,52 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$Components_Field$view = F5(
+	function (labelText, placeholder_, content, disabled, msg) {
+		var attributes = disabled ? {
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('field disabled'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Attributes$value('username'),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$readonly(true),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$placeholder(placeholder_),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$spellcheck(false),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		} : {
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('field'),
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$html$Html_Events$onInput(msg),
+				_1: {
+					ctor: '::',
+					_0: _elm_lang$html$Html_Attributes$value(content),
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$placeholder(placeholder_),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$spellcheck(false),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		};
+		return A3(
+			_Chadtech$elm_gulp_browserify_boilerplate$Components_Field_Basics$container,
+			'user',
+			labelText,
+			A2(
+				_elm_lang$html$Html$input,
+				attributes,
+				{ctor: '[]'}));
+	});

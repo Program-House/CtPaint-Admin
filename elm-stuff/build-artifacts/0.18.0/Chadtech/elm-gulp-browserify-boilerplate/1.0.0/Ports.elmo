@@ -1,0 +1,27 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$saveServersKey = _elm_lang$core$Native_Platform.outgoingPort(
+	'saveServersKey',
+	function (v) {
+		return v;
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$makeClientKey = _elm_lang$core$Native_Platform.outgoingPort(
+	'makeClientKey',
+	function (v) {
+		return null;
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$signIn = _elm_lang$core$Native_Platform.outgoingPort(
+	'signIn',
+	function (v) {
+		return [v._0, v._1];
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$signInResult = _elm_lang$core$Native_Platform.incomingPort('signInResult', _elm_lang$core$Json_Decode$string);
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$searchUser = _elm_lang$core$Native_Platform.outgoingPort(
+	'searchUser',
+	function (v) {
+		return [v._0, v._1];
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$userSearchResult = _elm_lang$core$Native_Platform.incomingPort('userSearchResult', _elm_lang$core$Json_Decode$bool);
+var _Chadtech$elm_gulp_browserify_boilerplate$Ports$setUsername = _elm_lang$core$Native_Platform.outgoingPort(
+	'setUsername',
+	function (v) {
+		return v;
+	});

@@ -1,0 +1,60 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_View$ready = function (_p0) {
+	var _p1 = _p0;
+	return (!_elm_lang$core$Native_Utils.eq(_p1.usernameField, '')) && (!_elm_lang$core$Native_Utils.eq(_p1.passwordField, ''));
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_View$view = function (model) {
+	return A2(
+		_Chadtech$elm_gulp_browserify_boilerplate$Components_Basics$card,
+		{
+			ctor: '::',
+			_0: _elm_lang$html$Html_Attributes$class('solitary'),
+			_1: {ctor: '[]'}
+		},
+		{
+			ctor: '::',
+			_0: A2(
+				_Chadtech$elm_gulp_browserify_boilerplate$Components_Basics$words,
+				{ctor: '[]'},
+				'Log In'),
+			_1: {
+				ctor: '::',
+				_0: A4(
+					_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Components$field,
+					'username',
+					'username',
+					model.usernameField,
+					function (_p2) {
+						return _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$SignInWrapper(
+							_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$UpdateUsernameField(_p2));
+					}),
+				_1: {
+					ctor: '::',
+					_0: A4(
+						_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Components$password,
+						'password',
+						'password',
+						model.passwordField,
+						function (_p3) {
+							return _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$SignInWrapper(
+								_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$UpdatePasswordField(_p3));
+						}),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$br,
+							{ctor: '[]'},
+							{ctor: '[]'}),
+						_1: {
+							ctor: '::',
+							_0: A3(
+								_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Components$button,
+								'Sign In',
+								_Chadtech$elm_gulp_browserify_boilerplate$SignIn_View$ready(model),
+								_Chadtech$elm_gulp_browserify_boilerplate$Main_Message$SignInWrapper(_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Message$SignIn)),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		});
+};

@@ -1,0 +1,15 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$UserWrapper = function (a) {
+	return {ctor: 'UserWrapper', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$SignInResult = function (a) {
+	return {ctor: 'SignInResult', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$SignInWrapper = function (a) {
+	return {ctor: 'SignInWrapper', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$GetServersPublicKey = function (a) {
+	return {ctor: 'GetServersPublicKey', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$SetPage = function (a) {
+	return {ctor: 'SetPage', _0: a};
+};

@@ -1,0 +1,36 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$email = function (str) {
+	return A3(
+		_Chadtech$elm_gulp_browserify_boilerplate$Components_Field_Basics$container,
+		'',
+		str,
+		_elm_lang$html$Html$text(''));
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$emailLine = function (model) {
+	var _p0 = model.current;
+	if (_p0.ctor === 'Nothing') {
+		return _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$email('no user loaded');
+	} else {
+		return _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$email('bonk');
+	}
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$view = function (model) {
+	return _Chadtech$elm_gulp_browserify_boilerplate$Components_Basics$leftContainer(
+		{
+			ctor: '::',
+			_0: _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$emailLine(model),
+			_1: {
+				ctor: '::',
+				_0: A5(
+					_Chadtech$elm_gulp_browserify_boilerplate$Components_Field$view,
+					'username',
+					'username',
+					model.usernameField,
+					_elm_lang$core$Native_Utils.eq(model.current, _elm_lang$core$Maybe$Nothing),
+					function (_p1) {
+						return _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$UserWrapper(
+							_Chadtech$elm_gulp_browserify_boilerplate$User_Message$UpdateUsernameField(_p1));
+					}),
+				_1: {ctor: '[]'}
+			}
+		});
+};

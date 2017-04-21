@@ -1,0 +1,4 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$Api_Util$dev = true;
+var _Chadtech$elm_gulp_browserify_boilerplate$Api_Util$root = function (path) {
+	return _Chadtech$elm_gulp_browserify_boilerplate$Api_Util$dev ? A2(_elm_lang$core$Basics_ops['++'], 'http://localhost:2984', path) : A2(_elm_lang$core$Basics_ops['++'], '??? ? ? ??? ?', path);
+};

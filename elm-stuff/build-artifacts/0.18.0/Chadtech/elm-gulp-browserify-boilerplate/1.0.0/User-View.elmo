@@ -1,0 +1,49 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$User_View$toPayload = function (model) {
+	return {
+		dropped: model.searchParameterDropped,
+		drop: _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$UserWrapper(_Chadtech$elm_gulp_browserify_boilerplate$User_Message$DropSearchParameters),
+		options: {
+			ctor: '::',
+			_0: _Chadtech$elm_gulp_browserify_boilerplate$User_Model$ByEmail,
+			_1: {
+				ctor: '::',
+				_0: _Chadtech$elm_gulp_browserify_boilerplate$User_Model$ByUsername,
+				_1: {ctor: '[]'}
+			}
+		},
+		handleOptionSelect: function (_p0) {
+			return _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$UserWrapper(
+				_Chadtech$elm_gulp_browserify_boilerplate$User_Message$SetDropDown(_p0));
+		},
+		selectedOption: model.searchParameter,
+		onEnter: _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$UserWrapper(_Chadtech$elm_gulp_browserify_boilerplate$User_Message$HandleEnter),
+		onInput: function (_p1) {
+			return _Chadtech$elm_gulp_browserify_boilerplate$Main_Message$UserWrapper(
+				_Chadtech$elm_gulp_browserify_boilerplate$User_Message$UpdateSearchField(_p1));
+		},
+		searchField: model.searchField
+	};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_View$view = F2(
+	function (model, userModel) {
+		return _Chadtech$elm_gulp_browserify_boilerplate$Components_Basics$page(
+			{
+				ctor: '::',
+				_0: _Chadtech$elm_gulp_browserify_boilerplate$User_DetailsArea$view(userModel),
+				_1: {
+					ctor: '::',
+					_0: _Chadtech$elm_gulp_browserify_boilerplate$Components_Basics$separator,
+					_1: {
+						ctor: '::',
+						_0: _Chadtech$elm_gulp_browserify_boilerplate$Components_SearchBar$view(
+							_Chadtech$elm_gulp_browserify_boilerplate$User_View$toPayload(userModel)),
+						_1: {
+							ctor: '::',
+							_0: _Chadtech$elm_gulp_browserify_boilerplate$Components_Basics$searchItems(
+								{ctor: '[]'}),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			});
+	});

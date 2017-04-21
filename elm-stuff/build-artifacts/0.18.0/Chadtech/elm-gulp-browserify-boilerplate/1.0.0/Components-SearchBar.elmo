@@ -1,0 +1,20 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$Components_SearchBar$view = function (p) {
+	return _Chadtech$elm_gulp_browserify_boilerplate$Components_SearchBar_Basics$searchBar(
+		{
+			ctor: '::',
+			_0: _Chadtech$elm_gulp_browserify_boilerplate$Components_Field_Basics$label('search'),
+			_1: {
+				ctor: '::',
+				_0: A5(_Chadtech$elm_gulp_browserify_boilerplate$Components_DropDown$view, p.dropped, p.drop, p.handleOptionSelect, p.selectedOption, p.options),
+				_1: {
+					ctor: '::',
+					_0: A3(_Chadtech$elm_gulp_browserify_boilerplate$Components_SearchBar_Basics$field, p.onInput, p.onEnter, p.searchField),
+					_1: {ctor: '[]'}
+				}
+			}
+		});
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Components_SearchBar$Payload = F8(
+	function (a, b, c, d, e, f, g, h) {
+		return {dropped: a, drop: b, options: c, handleOptionSelect: d, selectedOption: e, onEnter: f, onInput: g, searchField: h};
+	});

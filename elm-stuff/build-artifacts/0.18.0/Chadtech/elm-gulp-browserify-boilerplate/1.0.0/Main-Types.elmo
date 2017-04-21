@@ -1,0 +1,38 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$AdministratorsState = F2(
+	function (a, b) {
+		return {administrators: a, current: b};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$ProjectsState = F2(
+	function (a, b) {
+		return {projects: a, current: b};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$VerificationsState = F2(
+	function (a, b) {
+		return {verifications: a, current: b};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$Admin = function (a) {
+	return {username: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$Verification = F2(
+	function (a, b) {
+		return {email: a, code: b};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$Project = F2(
+	function (a, b) {
+		return {owner: a, members: b};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$SignInPage = function (a) {
+	return {ctor: 'SignInPage', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$AdministratorsPage = function (a) {
+	return {ctor: 'AdministratorsPage', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$ProjectsPage = function (a) {
+	return {ctor: 'ProjectsPage', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$VerificationsPage = function (a) {
+	return {ctor: 'VerificationsPage', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$Main_Types$UsersPage = function (a) {
+	return {ctor: 'UsersPage', _0: a};
+};

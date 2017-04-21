@@ -1,0 +1,5 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_Model$Model = F2(
+	function (a, b) {
+		return {usernameField: a, passwordField: b};
+	});
+var _Chadtech$elm_gulp_browserify_boilerplate$SignIn_Model$init = A2(_Chadtech$elm_gulp_browserify_boilerplate$SignIn_Model$Model, '', '');

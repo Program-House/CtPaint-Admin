@@ -1,0 +1,11 @@
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Message$SetDropDown = function (a) {
+	return {ctor: 'SetDropDown', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Message$DropSearchParameters = {ctor: 'DropSearchParameters'};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Message$HandleEnter = {ctor: 'HandleEnter'};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Message$UpdateSearchField = function (a) {
+	return {ctor: 'UpdateSearchField', _0: a};
+};
+var _Chadtech$elm_gulp_browserify_boilerplate$User_Message$UpdateUsernameField = function (a) {
+	return {ctor: 'UpdateUsernameField', _0: a};
+};
