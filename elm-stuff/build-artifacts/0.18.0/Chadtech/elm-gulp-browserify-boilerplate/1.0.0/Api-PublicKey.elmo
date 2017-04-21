@@ -1,5 +1,0 @@
-var _Chadtech$elm_gulp_browserify_boilerplate$Api_PublicKey$get = A2(
-	_elm_lang$http$Http$send,
-	_Chadtech$elm_gulp_browserify_boilerplate$Main_Message$GetServersPublicKey,
-	_elm_lang$http$Http$getString(
-		_Chadtech$elm_gulp_browserify_boilerplate$Api_Util$root('/api/key')));
